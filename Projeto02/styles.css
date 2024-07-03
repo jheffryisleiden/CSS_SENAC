@@ -1,0 +1,16 @@
+.fundo{
+    background-image: url(imagens/fundo01.png);
+    background-repeat: repeat-y;
+
+    
+}
+
+img {
+    margin-left: 50px;
+
+    
+}
+
+h1{
+    margin-left: 50px;
+}
