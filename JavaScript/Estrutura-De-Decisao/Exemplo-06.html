@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        // Exemplo-06:
+        // Crie um programa que solicita um numero entre 1 a 7 e imrpima no console qual dia da semana corresponde o numero.
+
+        let diaDaSemana = prompt('Digite um número de 1 a 7 para saber o dia da semana');
+        diaDaSemana = Number(diaDaSemana);
+
+        // Not - a - Number verificar se não corresponde a um número
+        if (isNaN(diaDaSemana) || diaDaSemana < 1 || diaDaSemana > 7) {
+
+            // Se o número não for válido ou estiver fora do internalo 01 - 07
+            console.log('você não digitou um número entre 01 e 07.'); 
+
+        } else if (diaDaSemana === 1) {
+            console.log('É Segunda - feira');
+
+        } else if (diaDaSemana === 2) {
+            console.log('É Terça - feira');
+
+        } else if (diaDaSemana === 3) {
+            console.log('É Quarta - feira');
+
+        } else if (diaDaSemana === 4) {
+            console.log('É Quinta - feira');
+
+        } else if (diaDaSemana === 5) {
+            console.log('É Sexta - feira');
+
+        } else if (diaDaSemana === 6) {
+            console.log('É Sabádo - feira');
+
+        } else if (diaDaSemana === 7) {
+            console.log('É Domingo - feira');
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>
