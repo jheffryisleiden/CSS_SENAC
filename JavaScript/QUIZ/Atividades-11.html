@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+let sejaBemvindo = alert (' Seja bem vindo!\n Responda as questões com o número da alternativa correta.');
+
+let p1 = parseInt(prompt(' De onde é a invenção do chuveiro elétrico? \n 1-) França \n 2- ) Inglaterra \n 3-) Brasil \n 4- ) Austrália'));
+let r1 = 0;
+
+if(p1 === 3) {
+    r1 = 1;
+}else {
+    r1 = 0;
+}
+
+
+document.write('Pergunta 1: <br> De onde é a invenção do chuveiro elétrico?' );
+document.write(' <br> Alternativa correta: <b>  <font color=blue> 3-) Brasil </font> </b></br> ');
+document.write(' Sua Resposta: <b>' + p1 + '</b><hr>');
+
+
+
+let p2 = parseInt(prompt(' Quantas casas decimais tem o número pi? \n 1-) Duas \n 2- ) Centenas \n 3-) Infinitas \n 4- ) Vinte'));
+let r2 = 0;
+
+if(p2 === 3) {
+    r2 = 1;
+}else {
+    r2 = 0;
+}
+
+document.write('Pergunta 2: <br> Quantas casas decimais tem o número pi?' );
+document.write(' <br> Alternativa correta: <b>  <font color=blue> 3-) Infinitas </font> </b></br> ');
+document.write(' Sua Resposta: <b> ' + p2 + '</b><hr>');
+
+
+let p3 = parseInt(prompt(' Atualmente, quantos elementos químicos a tabela periódica possui? \n 1-) 113 \n 2- ) 109 \n 3-) 108 \n 4- ) 118'));
+let r3 = 0;
+
+if(p3 === 4) {
+    r3 = 1;
+}else {
+    r3 = 0;
+}
+
+document.write('Pergunta 3: <br> Atualmente, quantos elementos químicos a tabela periódica possui?' );
+document.write(' <br> Alternativa correta: <b>  <font color=blue> 4-) 118 </font> <b/> </br> ');
+document.write(' Sua Resposta: <b> ' + p3 + '</b><hr>');
+
+
+
+let p4 = parseInt(prompt(' O que a palavra legend significa em português? \n 1-) Legenda \n 2- ) Conto \n 3-) História \n 4- ) Lenda'));
+let r4 = 0;
+
+if(p4 === 4) {
+    r4 = 1;
+}else {
+    r4 = 0;
+}
+
+document.write('Pergunta 4: <br> O que a palavra legend significa em português?' );
+document.write(' <br> Alternativa correta: <b>  <font color=blue> 4-) Lenda </font> </b> </br> ');
+document.write(' Sua Resposta: <b> ' + p4 + '</b><hr>');
+
+
+let p5 = parseInt(prompt(' Quanto tempo a luz do Sol demora para chegar à Terra? \n 1-) 12 minutos \n 2- ) 1 dia \n 3-) 12 horas \n 4- ) 8 minutos'));
+let r5 = 0;
+
+if(p5 === 4) {
+    r5 = 1;
+}else {
+    r5 = 0;
+}
+
+document.write('Pergunta 5: <br> Quanto tempo a luz do Sol demora para chegar à Terra?' );
+document.write(' <br> Alternativa correta: <b>  <font color=blue> 4-) 8 minutos </font>  </br> </b>');
+document.write(' Sua Resposta: <b>' + p5 + '</b><hr>');
+
+
+let pontos = r1 + r2 + r3 + r4 + r5;
+
+
+document.write('Pontos: <b> ' + pontos + '</b>')
+
+
+    </script>
+    
+</body>
+</html>
