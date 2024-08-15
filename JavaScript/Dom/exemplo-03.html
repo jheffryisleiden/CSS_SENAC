@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac</title>
+
+</head>
+
+<body>
+
+    <h1> Exemplo 03 </h1>
+
+
+    <table border="2px">
+        <tr>
+            <td>Nome:</td>
+            <td id="nome"> </td>
+        </tr>
+        <tr>
+            <td>E-mail:</td>
+            <td id="email"> </td>
+        </tr>
+        <tr>
+            <td>Telefone:</td>
+            <td id="telefone"> </td>
+        </tr>
+    </table>
+
+
+    <script>
+
+        let nome = document.getElementById("nome");
+        nome.textContent = prompt("Digite seu nome:");
+
+        let email = document.getElementById("email");
+        email.textContent = prompt("Digite seu email:");
+
+        let talefone = document.getElementById("telefone");
+        telefone.textContent = prompt("Digite seu telefone:");
+
+    </script>
+
+    <br>
+    <button onclick="window.print()"> imprimir </button>
+
+</body>
+
+</html>
