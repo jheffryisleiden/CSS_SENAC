@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let funcionario = prompt('Digite seu nome');
+        let salario = parseFloat(prompt('Digite seu salário'))
+        let porcentagemdeaumento = parseFloat(prompt('Porcentagem de aumento'))
+        let valordoaumento = (salario / 100 * porcentagemdeaumento)
+        let novosalario = (salario + valordoaumento)
+        
+
+        document.write('<br><b>Funcionário: </b> ' + funcionario);
+        document.write('<br><b>Salário: </b> ' + salario);
+        document.write('<br><b>Porcentagem de aumento: </b> ' + porcentagemdeaumento + '%');
+        document.write('<br><b>Valor do aumento: </b> ' + valordoaumento);
+        document.write('<br><b>Novo salário: </b> ' + novosalario);
+
+
+    </script>
+
+</body>
+
+</html>
