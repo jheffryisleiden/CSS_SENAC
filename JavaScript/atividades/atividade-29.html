@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <script src="../A-22/A-22.1.js"></script>
+
     <style>
         /* Definições gerais de estilo */
         body {
@@ -140,6 +140,29 @@
         </form>
 
     </div>
+
+    <script>
+        function validarFormulario() {
+            const nome = document.getElementById("usuario").value;
+            const email = document.getElementById("senha").value;
+            const mensagemErro = document.getElementById("mensagemErro");
+ 
+            mensagemErro.innerHTML = "";
+ 
+            if (nome === "") {
+                mensagemErro.innerHTML = "Por favor, preencha o campo Usuário.";
+                return false;
+            }
+ 
+            if (email === "") {
+                mensagemErro.innerHTML = "Por favor, preencha o campo Senha.";
+                return false;
+            }
+ 
+            return true;
+        }
+    </script>
+
 </body>
 
 </html>
